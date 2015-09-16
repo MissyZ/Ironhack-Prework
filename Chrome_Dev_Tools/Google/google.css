@@ -1,0 +1,44 @@
+body	{
+	font-family: small arial, sans-serif;
+}
+
+a 	{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover	{
+	opacity: .85;
+	text-decoration: underline;
+}
+
+a:visited	{
+	color: #609;
+}
+
+header	{
+	height: 30px;
+}
+
+#headerContainer	{
+	display: inline-block;
+	float: right;
+	padding-left: 15px;
+
+}
+
+ul	{
+	margin-right: 10px;
+	text-align: right;
+}
+
+li	{
+	display: inline;
+	padding-left: 14.7px;
+	list-style: none;
+}
+
+#selected	{
+	opacity: .75;
+}
+
