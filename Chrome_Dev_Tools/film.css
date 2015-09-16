@@ -1,0 +1,122 @@
+body	{
+	background-color: #1a82f7;
+	background: url(images/linear_bg_2.png);
+	background-repeat: repeat-x;
+
+	  /* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#D0CDBE), to(#E2DFD0));
+
+	  /* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(left, #D0CDBE, #E2DFD0);
+
+	  /* Firefox 3.6+ */
+	background: -moz-linear-gradient(right, #D0CDBE, #E2DFD0);
+
+	  /* IE 10 */
+	background: -ms-linear-gradient(right, #D0CDBE, #E2DFD0);
+
+	  /* Opera 11.10+ */
+	background: -o-linear-gradient(right, #D0CDBE, #E2DFD0);
+}
+
+header	{
+	padding-bottom: 3px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+article	{
+	margin: auto;
+	height: 1000px;
+	width: 1000px;
+	background-color: #530000;
+}
+
+
+.contentSection	{
+	margin: 30px;
+	height: 600px;
+	width: 440px;
+	background-color: #fff;
+}
+
+#one	{
+	float: left;
+	text-align: center;
+}
+
+#sectionTitle	{
+	font-family: "A Lolita Scorned";
+	font-size: 46px;
+	color: #530000;
+}
+
+#oneSpan	{
+	color: #366B00;
+}
+
+
+#oneParagraph 	{
+	padding: 0 10px 0 9px;
+	text-align: justify;
+}
+
+#two	{
+	float: right;
+}
+
+#twoTitle	{
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 36px;
+	text-align: center;
+}
+
+#twoImg	{
+	margin-left: 5%;
+	border-radius: 5%;
+}
+
+table 	{
+	clear: both;
+	margin-top: 10px;
+	padding-left: 25px;
+	text-align: left;
+}
+
+.tableColumn	{
+	padding-left: 10px;
+}
+
+#three	{
+	clear: both;
+	margin: 0px 30px 0px 30px;
+	height: 300px;
+	width: 940px;
+	background-color: #fff;
+}
+
+#threeImg	{
+	float: right;
+	margin-top: -40px;
+	padding: 4px;
+}
+
+#threeQuote	{
+	clear: right;
+	margin: 5px 10px 0px 10px;
+	text-align: center;
+}
+
+footer	{
+	padding-top: 5px;
+	height: 100px;
+	width: 100%;
+}
+
+#footerParagraph	{
+	margin-right: 60px;
+	text-align: right;
+}
+
