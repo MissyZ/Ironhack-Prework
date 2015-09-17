@@ -1,14 +1,16 @@
 body	{
+	margin:	0;
+	padding: 0;
 	font-family: small arial, sans-serif;
 }
 
 a 	{
 	text-decoration: none;
-	color: #000;
+	
 }
 
 a:hover	{
-	opacity: .85;
+	opacity: .75;
 	text-decoration: underline;
 }
 
@@ -20,25 +22,133 @@ header	{
 	height: 30px;
 }
 
-#headerContainer	{
-	display: inline-block;
+nav	{
 	float: right;
-	padding-left: 15px;
+	width: 355px;
+}
 
+.navLinks	{
+	opacity: .85;
+	color:	#000;
 }
 
 ul	{
+	float: left;
 	margin-right: 10px;
 	text-align: right;
 }
 
 li	{
 	display: inline;
-	padding-left: 14.7px;
+	padding-left: 15px;
 	list-style: none;
+	font-size: 13px;
+}
+
+#headerDiv	{
+	float: right;
+	margin-top: 12px;
+	height: 30px;
+}
+
+.listImage	{
+	padding-right: 15px;
+}
+
+#headerBell	{
+	margin-bottom: 4px;
+	padding-right: 15px;
 }
 
 #selected	{
-	opacity: .75;
+	opacity: .60;
 }
 
+#sectionOneContainer	{
+	margin-top: 235px;
+	margin-left: 40%;
+}
+
+#sectionLogo	{
+	/*width:	auto;*/
+}
+
+
+#sectionTwoContainer	{
+	height: 120px;
+}
+
+#sectionTwoDivOne	{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 27%;
+    height: 36px;
+    width: 670px;
+    cursor: text;
+    border: 1px solid #B9B9B9;
+    border-top-color: #A0A0A0;
+    border-radius: .1;
+}
+
+#searchText	{
+	background: transparent;
+	float: left;
+	margin-top: 8px;
+	margin-left: 10px;
+	width: 90%;
+	font-size: 16px;
+	color: #BBB;
+	border: none;
+}
+
+#searchMic	{
+	float: right;
+	margin-top: 6px;
+	padding-right: 10px;
+}
+
+#searchButtonContainer	{
+	margin-left: 40%;
+	padding-top: 10px;
+}
+
+.searchButton 	{
+	background-color: #F2F2F2;
+	margin: 11px 4px;
+	height: 36px;
+	line-height: 27px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	color: #757575;
+	cursor: default;
+	border: 1px solid #F2F2F2;
+	border-radius: 2px;
+}
+
+#languageChoiceContainer {
+	margin-top: 28px;
+	margin-left: 37.5%;
+	margin-bottom: 24px;
+	font-size: 13px;
+}
+
+.searchLanguage	{
+	padding: 0 3px;
+	line-height: 24px;
+	color: #12C;
+}
+
+footer	{
+	bottom: 0px;
+	font-size: 10pt;
+	height: 35px;
+	width: 100%;
+}
+
+#footerContainer	{
+	background-color: #F2F2F2;
+	margin-left: -27px;
+	line-height: 40px;
+	border-top: 1px solid #E4E4E4;
+}

@@ -10,14 +10,44 @@
 		<nav>
 			<ul>
 				<li id="selected">Missy</li>
-				<li><a href="#" alt="gmail link">Gmail</a></li>
-				<li><a href="https://www.google.es/imghp?hl=en&ei=voz5VbzyEoKFa46MvYAB&ved=0CAIQqi4oAQ" alt="link to google images search">Images</a></li>
-				<li><img src="images/app_icon.png"></li>
-				<li><img src="images/bell.png"></li>
-				<li><img src=""></li>
+				<li><a href="#" alt="gmail link" class="navLinks">Gmail</a></li>
+				<li><a href="https://www.google.es/imghp?hl=en&ei=voz5VbzyEoKFa46MvYAB&ved=0CAIQqi4oAQ" alt="link to google images search" class="navLinks">Images</a></li>
 			</ul>
+			<div id="headerDiv">
+				<span><img src="images/app_icon.png" class="listImage"></span>
+				<span><img src="images/bell.png" id="headerBell"></span>
+				<span><img src="images/profile.png" class="listImage"></span>
+			</div>
 		</nav>
 	</header>
-
+	<article>
+		<section id="sectionOneContainer">
+			<img src="images/googleLogo.jpg" id="sectionLogo">
+		</section>
+		<section id="sectionTwoContainer">
+			<div id="sectionTwoDivOne">
+				<input id="searchText" placeholder="Search Google or type URL"></input>
+				<img src="images/micColor.jpeg" id="searchMic">
+			</div>
+			<div id="searchButtonContainer">
+				<input type="submit"  value="Google Search" class="searchButton"></input>
+				<input type="submit" value="I'm Feeling Lucky" class="searchButton"></input>
+			</div>
+		</section>
+		<div id="languageChoiceContainer">
+			Google.es offered in: 
+				<a href="#" class="searchLanguage">español</a>
+				<a href="#" class="searchLanguage">català</a>
+				<a href="#" class="searchLanguage">galego</a>
+				<a href="#" class="searchLanguage">euskara</a>		
+		</div>
+	</article>
+	<footer>
+		<div id="footerContainer">
+			<div id="footerLeft"></div>
+			<div id="footerRight"></div>
+		</div>
+	</footer>
 </body>
+</html>
 </html>
