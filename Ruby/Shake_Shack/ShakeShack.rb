@@ -7,7 +7,7 @@ class MilkShake
   def add_ingredient(ingredient)
     @ingredients.push(ingredient)
   end
-end
+
 
 def price_of_milkshake
   @total_price_of_milkshake = @base_price
@@ -15,6 +15,7 @@ def price_of_milkshake
     @total_price_of_milkshake += ingredient.price
   end
    @total_price_of_milkshake
+  end
 end
 
 class Ingredient
@@ -25,17 +26,20 @@ class Ingredient
   end
 end
 
-class ShakeShop
+class ShakeShop < MilkShake
 	def initialize
 		@milkshakes = []
 	end
 
 	def add_milkshake
-		@milkshakes.push(milkshake)
-	end
+		@milkshakes.push(MilkShake.new)
+    end
 
 	def view_list
-		puts "#{@milkshakes}: #{total_price_of_milkshake}"
+    @milkshakes.each do |milkshake|
+		list = milkshake ": #{total_price_of_milkshake}"
+    puts list
+    end
 	end
 end
 
@@ -44,5 +48,5 @@ banana = Ingredient.new("Banana", 2)
 chocolate_chips = Ingredient.new("Chocolate Chips", 1)
 nizars_milkshake.add_ingredient(banana)
 nizars_milkshake.add_ingredient(chocolate_chips)
-
-# puts nizars_milkshake.price_of_milkshake
+puts nizars_milkshake.price_of_milkshake
+MilkShake.view_list
