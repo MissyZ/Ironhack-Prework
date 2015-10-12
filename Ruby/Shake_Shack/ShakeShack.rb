@@ -27,12 +27,14 @@ class Ingredient
 end
 
 class ShakeShop < MilkShake
+
 	def initialize
 		@milkshakes = []
+    milkshake = MilkShake.new
 	end
 
 	def add_milkshake
-		@milkshakes.push(MilkShake.new)
+		@milkshakes.push(milkshake)
     end
 
 	def view_list
